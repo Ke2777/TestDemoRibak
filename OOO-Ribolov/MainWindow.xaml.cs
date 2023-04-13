@@ -23,6 +23,7 @@ namespace OOO_Ribolov
 		public MainWindow()
 		{
 			InitializeComponent();
+			MainFrame.Navigate(new View.CatalogPage());
 		}
 	}
 }

@@ -23,6 +23,12 @@ namespace OOO_Ribolov.View
 		public CatalogPage()
 		{
 			InitializeComponent();
+			Update();
+		}
+
+		public void Update()
+		{
+			var items = Helper.DbContext.Catalog.ToList();
 		}
 	}
 }

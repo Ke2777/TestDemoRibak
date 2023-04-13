@@ -7,27 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid Margin="15">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition Height="4*"/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-
-            <Grid Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="8" Background="#FF76E383"/>
-            <Grid Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="8" Background="#FF76E383"/>
-
-        </Grid>
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

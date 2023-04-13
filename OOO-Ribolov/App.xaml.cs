@@ -13,5 +13,16 @@ namespace OOO_Ribolov
 	/// </summary>
 	public partial class App : Application
 	{
+		public App()
+		{
+			try
+			{
+				Helper.DbContext = new Entities.ContextDB();
+			}
+			catch (Exception e)
+			{
+				MessageBox.Show(e.Message);
+			}
+		}
 	}
 }
